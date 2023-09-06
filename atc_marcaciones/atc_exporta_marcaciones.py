@@ -2,10 +2,10 @@ import paramiko
 import os
 
 # Configura tus credenciales y detalles del servidor SSH
-ssh_host = '150.1.100.243'
+ssh_host = 'HOST'
 ssh_port = 22
-ssh_user = 'dolmedo'
-ssh_password = '3quip0852#'
+ssh_user = 'USER'
+ssh_password = 'PASS'
 
 # Configura el archivo y directorios
 local_file_aux_diario = 'C:/Users/dolmedo/ftp/icaro/N_aux_diario.txt'
