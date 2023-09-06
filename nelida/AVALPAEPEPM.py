@@ -35,10 +35,10 @@ def sftp_copy_files(hostname, port, username, password, remote_path, local_path)
     client.close()
 
 # Configuración de conexión SFTP
-hostname = '172.25.235.18'
+hostname = 'HOST'
 port = 22
-username = 'tecnologia'
-password = 'tecnologia123'
+username = 'USER'
+password = 'PASS'
 remote_path = '/opt/Avaya/avpom/POManager/public/default/export'
 # local_path = 'C:/Users/dolmedo/ftp/nelida'
 local_path = 'Z:/REPORTES'
