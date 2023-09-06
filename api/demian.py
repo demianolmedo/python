@@ -4,10 +4,10 @@ from flask_mysqldb import MySQL
 app = Flask(__name__)
 
 # Configuración de la base de datos
-app.config['MYSQL_HOST'] = '89.117.59.147'
-app.config['MYSQL_USER'] = 'datacombo'
-app.config['MYSQL_PASSWORD'] = 'D4t4comiano$2023!'
-app.config['MYSQL_DB'] = 'CORE'
+app.config['MYSQL_HOST'] = 'HOST'
+app.config['MYSQL_USER'] = 'USER'
+app.config['MYSQL_PASSWORD'] = 'PASS'
+app.config['MYSQL_DB'] = 'BD_NAME'
 app.config['MYSQL_CURSORCLASS'] = 'DictCursor'  # Para obtener resultados como diccionarios
 
 mysql = MySQL(app)
