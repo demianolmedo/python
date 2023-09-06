@@ -2,9 +2,9 @@ import os
 from ftplib import FTP
 
 # Configura tus credenciales y detalles del servidor FTP
-ftp_host = '172.24.2.78'
-ftp_user = 'IUSR_ICARO'
-ftp_password = 'Demian_2023'
+ftp_host = 'HOST'
+ftp_user = 'USER'
+ftp_password = 'PASS'
 
 # Configura el archivo y directorios
 remote_file_aux_diario = 'N_aux_diario.txt'
