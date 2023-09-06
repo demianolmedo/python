@@ -4,19 +4,19 @@ import datetime
 
 # Conexión a la base de datos fuente
 source_db = mysql.connector.connect(
-    host='150.1.88.224',
-    user='dolmedo',
-    password='D4t4c0m',
-    database='bdd_doc',
+    host='HOST',
+    user='USER',
+    password='PASS',
+    database='BD_NOMBRE',
     charset='utf8'
 )
 
 # Conexión a la base de datos destino
 destination_db = mysql.connector.connect(
-    host='89.117.59.147',
-    user='datacombo',
-    password='D4t4comiano$2023!',
-    database='doc',
+    host='HOST',
+    user='USER',
+    password='PASS',
+    database='BD_NOMBRE',
     charset='utf8'
 )
 
